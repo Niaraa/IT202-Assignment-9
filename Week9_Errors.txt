@@ -1,0 +1,56 @@
+
+Week 9 - PHP Debugging Exercise
+
+Error 1:
+Incorrect: <php
+Correct: <?php
+Explanation: PHP code must start with <?php.
+
+Error 2:
+Incorrect: require("connect.php")
+Correct: require("connect.php");
+Explanation: A semicolon is needed at the end.
+
+Error 3:
+Incorrect: / This code has 10 errors
+Correct: // This code has 10 errors
+Explanation: PHP single-line comments use //.
+
+Error 4:
+Incorrect: if (isset($name)
+Correct: if (isset($name))
+Explanation: The if statement needs a closing parenthesis.
+
+Error 5:
+Incorrect: $Name
+Correct: $name
+Explanation: PHP variable names are case-sensitive.
+
+Error 6:
+Incorrect: SELECT * FROM Client Table
+Correct: SELECT * FROM `Client Table`
+Explanation: A table name containing spaces needs backticks.
+
+Error 7:
+Incorrect: WHERE Name=$name
+Correct: WHERE Name='$name'
+Explanation: String values in SQL need quotation marks.
+
+Error 8:
+Incorrect: mysqli_query($con, $sql)
+Correct: mysqli_query($con, $sql);
+Explanation: The statement needs a semicolon.
+
+Error 9:
+Incorrect: mysql_num_rows($result)
+Correct: mysqli_num_rows($result)
+Explanation: The MySQLi function must be used.
+
+Error 10:
+Incorrect: if ($rows = 1)
+Correct: if ($rows == 1)
+Explanation: == compares values, while = assigns a value.
+
+Additional corrections:
+- echo name; should be echo $name;
+- Add any missing closing curly brace.
